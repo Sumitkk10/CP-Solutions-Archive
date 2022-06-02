@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+	int count, n, diff;
+	count = 1;	//loop counter
+	int a = 1;		//series starting number
+	diff = 10;	//difference variable initialization
+	scanf("%d", &n);
+	start : 
+    	if(count <= n){
+        	printf("%d", a);
+        	printf(" ");
+        	a = a + diff;
+        	diff = diff + 10;
+        	count++;
+        	goto start;
+    	}
+	return 0;
+}
