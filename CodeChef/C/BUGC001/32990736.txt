@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+	int count = 1, t = 2, r;
+	while(count<=10)
+	{
+		r=2*count;
+		printf("2*%d", count);
+		printf("=%d", r); 
+		printf("\n");
+		count++;
+	}
+ }
